@@ -38,5 +38,11 @@ f) true
 
 15. '==' compares two variables but does not pay attention to type. '===' also compares two variables, but does pay attention to their types.
 16. check part2-question16.js file
-
+17. The result is [2.4,6]; First after calling modifyArray([1,2,3], doSomething), we create a new array called newArr. We go through each element of our original passed array and call doSomething(num) for each element. This function returns the element * 2. When returned, the new value is pushed into newArr, and the forloop continues, until all of array is looped. newArr is returned and it contains an array of doubled values.
+18. check part2-question18.js file
+19. 
+1
+4
+3
+2
 
